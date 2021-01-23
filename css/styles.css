@@ -1,0 +1,190 @@
+:root {
+  --text-font: "Roboto", sans-serif;
+  --text-title: "Raleway", sans-serif;
+  --accent-color: #2196f3;
+}
+
+body {
+  font-family: var(--text-font);
+}
+
+/* Header */
+.link-active-page {
+  color: var(--accent-color);
+}
+.logo {
+  font-family: var(--text-title);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.logo-snd {
+  color: #000000;
+}
+
+.navigation-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus {
+  color: var(--accent-color);
+}
+
+.contacts-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.contacts-list-link:hover,
+.contacts-list-link:focus {
+  color: var(--accent-color);
+}
+/* End Header */
+
+/* Footer */
+.footer {
+  background-color: #2f303a;
+}
+
+.logo-snd-footer {
+  color: #ffffff;
+}
+
+.adress-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-contacts-list-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+/* End footer */
+
+/* Studio Main */
+/* Hero */
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /* color: #ffffff; */
+}
+
+.hero-title-link {
+  background-color: #2196f3;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+/* End Hero */
+
+/*Avantages */
+.advantages-list-item-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.advantages-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* Advantages */
+
+/* What are we doing */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.667;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+/* End what are we doing */
+
+/* Team */
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.team-member-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* End team */
+/* End Studio Main */
+
+/* Portfolio main */
+/* Filters btn */
+.filter-btn-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.filter-btn-item:hover,
+.filter-btn-item:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+/* End filters btn */
+
+/* Projects */
+.projects-list-item-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.projects-list-item-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* End projects */
+/* End portfolio main */
