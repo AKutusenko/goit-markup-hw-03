@@ -226,12 +226,25 @@ h3 {
 /* End Hero */
 
 /*Avantages */
+.advantages {
+  padding: 94px 0;
+}
+.advantages-list {
+  display: flex;
+}
+
+.advantages-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .advantages-list-item-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
+  margin-bottom: 10px;
 }
 
 .advantages-description {
@@ -241,7 +254,12 @@ h3 {
   letter-spacing: 0.03em;
   color: var(--second-level-color);
 }
-/* Advantages */
+
+.advantages .section-title {
+  visibility: hidden;
+  height: 0;
+}
+/* End Advantages */
 
 /* What are we doing */
 .section-title {
