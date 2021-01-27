@@ -62,11 +62,9 @@ h3 {
 }
 
 /* Header */
-.header {
+.header > .container {
   display: flex;
   align-items: center;
-  /* padding-top: 25px;
-  padding-bottom: 25px; */
 }
 
 .logo {
