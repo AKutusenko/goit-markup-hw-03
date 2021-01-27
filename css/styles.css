@@ -50,12 +50,11 @@ h1,
 h2,
 h3 {
   /* background-color: burlywood; */
-  /* outline: 1px solid tomato; */
+  /* outline: 1px solid teal; */
 }
 
 .container {
   width: 1200px;
-  height: 100;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -322,6 +321,14 @@ h3 {
   margin-right: 30px;
 }
 
+.team-list-item {
+  padding-bottom: 30px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
 .team-member-photo {
   margin-bottom: 30px;
 }
@@ -349,7 +356,11 @@ h3 {
 /* End Studio Main */
 
 /* Portfolio main */
-/* Filters btn */
+/* Projects */
+.filter-btn {
+  text-align: center;
+  margin-bottom: 50px;
+}
 .filter-btn-item {
   font-weight: 500;
   font-size: 16px;
@@ -357,6 +368,10 @@ h3 {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--mostly-used-color);
+  border: none;
+  border-radius: 4px;
+
+  padding: 6px 22px;
 }
 
 .filter-btn-item:hover,
@@ -364,16 +379,59 @@ h3 {
   background-color: var(--accent-color);
   color: var(--mostly-used-color-inverse);
   cursor: pointer;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  outline: none;
 }
-/* End filters btn */
 
-/* Projects */
+.filter-btn-item:not(:last-child) {
+  margin-right: 8px;
+}
+
+.projects {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.projects .section-title {
+  visibility: hidden;
+  height: 0;
+}
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projects-list-item {
+  outline: 1px solid #eeeeee;
+  box-sizing: border-box;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.projects-list-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.projects-list-item:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+}
+.project-photo {
+  margin-bottom: 20px;
+}
+
+.project-list-item-container {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
 .projects-list-item-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--mostly-used-color);
+  margin-bottom: 4px;
 }
 
 .projects-list-item-description {
@@ -382,6 +440,8 @@ h3 {
   line-height: 1.875;
   letter-spacing: 0.03em;
   color: var(--second-level-color);
+
+  margin-bottom: 20px;
 }
 /* End projects */
 /* End portfolio main */
