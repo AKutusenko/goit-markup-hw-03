@@ -187,6 +187,7 @@ h3 {
 
   height: 600px;
   padding: 200px 0;
+  margin-bottom: 94px;
 }
 
 .hero-title {
@@ -226,11 +227,9 @@ h3 {
 /* End Hero */
 
 /*Avantages */
-.advantages {
-  padding: 94px 0;
-}
 .advantages-list {
   display: flex;
+  margin-bottom: 94px;
 }
 
 .advantages-list-item:not(:last-child) {
@@ -262,6 +261,9 @@ h3 {
 /* End Advantages */
 
 /* What are we doing */
+.what-are-we-doing {
+  margin-bottom: 94px;
+}
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -269,6 +271,15 @@ h3 {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--mostly-used-color);
+}
+
+.what-are-we-doing-list {
+  display: flex;
+  margin-top: 50px;
+}
+
+.what-are-we-doing-list-item:not(:last-child) {
+  margin-right: 30px;
 }
 /* End what are we doing */
 
